@@ -16,4 +16,13 @@ public class Queue {
     public Object pop() {
         return queue.remove(queue.size());
     }
+
+
+
+    public int size(){
+        return queue.size();
+    }
+
+
+
 }
